@@ -31,6 +31,10 @@
 	color: green;
 }
 
+[href="http://www.apple.com"] {
+	color: blue;
+}
+
 [id] {
 	background-color: pink;
 }
