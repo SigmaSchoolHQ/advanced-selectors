@@ -35,6 +35,22 @@
 	color: blue;
 }
 
+[href^="http"] {
+	color: purple;
+}
+
+[href^="#"] {
+	color: deeppink;
+}
+
+[href$=".com"] {
+	color: deepskyblue;
+}
+
+[href*='://'] {
+	color: magenta;
+}
+
 [id] {
 	background-color: pink;
 }
