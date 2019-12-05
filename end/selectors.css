@@ -4,7 +4,7 @@
 }
 
 /* descendant */
-.descendant p {
+.descendant div p {
 	color: magenta;
 }
 
