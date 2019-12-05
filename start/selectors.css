@@ -1,10 +1,22 @@
-/* Child *
+/* child */
+.child > p {
+	color: magenta;
+}
 
-/* Descendant */
+/* descendant */
+.descendant div p {
+	color: magenta;
+}
 
 /* Adjacent siblings */
+.adjacent-sibling div + p {
+	color: magenta;
+}
 
 /* General siblings */
+.general-sibling p ~ p {
+	color: magenta;
+}
 
 /* Attribute */
 

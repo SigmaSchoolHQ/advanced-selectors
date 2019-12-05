@@ -40,24 +40,24 @@ section {
 	margin: 20px auto;
 }
 
-.last-time {
+.common {
 	width: 100%;
 	display: block;
 }
-.last-time li {
+.common li {
 	padding: 5px;
 }
 
-.last-time a {
+.common a {
 	color: rgba(0, 0, 0, 0.7);
 	text-decoration: none;
 }
 
-.last-time a:hover {
+.common a:hover {
 	color: #37a18a;
 }
 
-.last-time code {
+.common code {
 	color: #37a18a;
 	font-size: 135%;
 }

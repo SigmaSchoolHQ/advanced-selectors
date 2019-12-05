@@ -4,16 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Advanced Selectors</title>
+  <title>Attribute & Universal Selectors</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="selectors.css">
 </head>
 <body>
   <div class="container">
-    <h1>Advanced Selectors</h1>
+    <h1>Attribute & Universal Selectors</h1>
 
-    <section class='last-time'>
-      <h2>Last time out we looked at basic selectors...</h2>
+    <section class='common'>
       <ul>
         <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Type_selectors">Type/Element selector: 
           <code> h2 { ... }</code></a></li>
@@ -43,7 +42,7 @@
       <h2>Child Selector 👉 &gt;</h2>
       <div class="nested">
         <code>.child > p</code>
-        <p class="nested-again">Will not select this paragraph which is nested within a div. Using <code>.child p</code> Would select paragraph.</p>
+        <p class="nested-again">Will not select this paragraph which is nested within a div. Using <code>.child p</code> Would select Attribute & Universalparagraph.</p>
       </div>
       <p>It will only select paragraphs like this one.</p>
       <p>And like this one! The are direct children of the section element with the .child class. Any paragraphs nested
