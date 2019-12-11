@@ -21,8 +21,6 @@ h1 {
 
 a {
 	display: block;
-	color: rgba(0, 0, 0, 0.7);
-	text-decoration: none;
 }
 
 section {
@@ -48,6 +46,11 @@ section {
 }
 .last-time li {
 	padding: 5px;
+}
+
+.last-time a {
+	color: rgba(0, 0, 0, 0.7);
+	text-decoration: none;
 }
 
 .last-time a:hover {
