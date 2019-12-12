@@ -15,7 +15,7 @@
 	color: purple;
 }
 
-[href^="#"] {
+[href$="html"] {
 	color: deeppink;
 }
 
